@@ -1,0 +1,11 @@
+.ddsmoothmenu ul{ z-index:100; }
+.ddsmoothmenu ul li{ position: relative; }
+* html .ddsmoothmenu ul li a{  display: inline-block; }
+.ddsmoothmenu ul li a:hover{text-decoration: none;}	
+.ddsmoothmenu ul li ul{ position: absolute; display: none; visibility: hidden; min-width:220px;  top:100% !important; padding-left:0px; overflow: visible !important; text-align: left; }
+.ddsmoothmenu ul li ul li{ display: list-item; float: none !important;	line-height:38px; background:rgba(255,255,255,0.8) !important; background:none; padding:0; margin-left:0px;}
+.ddsmoothmenu ul li ul li a{color:#000 !important; line-height:35px;}
+.ddsmoothmenu ul li ul li:hover{ background:#fff !important;}
+.ddsmoothmenu ul li:hover ul li a{color:#00b6ff;}
+.ddsmoothmenu ul li ul li a{ padding: 0px 10px; margin: 0; line-height:38px !important; height:38px !important; display:block; font-size: 16px; white-space:nowrap; color:#000; }
+.ddsmoothmenu ul li ul li:hover a{ color:#f00 !important;}
